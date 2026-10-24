@@ -22,6 +22,11 @@ Claude Code:
 claude mcp add --transport http b59link https://b59.link/api/mcp
 ```
 
+Gemini CLI (this repo is a Gemini CLI extension):
+```bash
+gemini extensions install https://github.com/icedsg/b59link-mcp
+```
+
 Claude Desktop, Cursor, Cline, VS Code and other clients that read an `mcpServers` block:
 ```json
 {

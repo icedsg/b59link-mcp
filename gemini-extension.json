@@ -1,0 +1,10 @@
+{
+  "name": "b59link",
+  "version": "1.2.0",
+  "description": "Short links, tracked QR codes, plain QR images and cookie-free page-view trackers from b59.link (hosted MCP server, no key needed).",
+  "mcpServers": {
+    "b59link": {
+      "httpUrl": "https://b59.link/api/mcp"
+    }
+  }
+}
