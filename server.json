@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "link.b59/b59-link",
+  "title": "b59.link",
+  "description": "Short links, QR codes and page-view trackers for AI agents, with click stats and email-code sign-up.",
+  "websiteUrl": "https://b59.link/mcp-pulsemcp-b59link",
+  "version": "1.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://b59.link/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer session key from the auth tool (optional; raises the limit to 300/min)",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
